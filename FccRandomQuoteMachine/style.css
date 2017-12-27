@@ -1,0 +1,74 @@
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: #ddddbb;
+    }
+    
+    #image {
+        height: auto;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+    }
+    
+    .quote-box {
+        border: 2px solid black;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding: 5%; 
+        text-align: center;
+    }
+    
+    .quote, .fa-quote-left, .fa-quote-right {
+        font-size: 30px; 
+    }
+    
+    .btn {
+        background-color: #cccc99;
+        text-align: center;
+    }
+}
+    
+@media only screen and (min-width: 651px) {
+    body {
+        background-image: url("./Lord-of-the-Rings-.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .quote, .fa-quote-left, .fa-quote-right {
+        color: white;
+        font-size: 50px;
+    }
+    
+    .quote-box {
+        border: 2px solid transparent;
+        margin-top: 5%;
+        margin-left: 40%;
+        margin-right: 15%;
+    }
+  
+    .btn {
+        background-color: #ddddbb;
+        border: solid black 1px;
+    }
+}
+  
+.quote-box {
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+  
+.btn {
+    font-family: 'Bilbo Swash Caps', cursive;
+    margin: 5%;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    color: black;
+}
+  
+button:active {
+    transform: translateY(4px);
+}
